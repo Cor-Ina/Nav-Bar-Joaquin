@@ -1,3 +1,5 @@
+/* for you this will be the .list.visible class */
+
 .list {
     width: 70%;
     height: 100px;
@@ -8,6 +10,8 @@
     top: 12%;
     right: 15%;
 }
+
+/* for you this will be the .list.visible::before  */
 .list::before{
     content: "";
     position: absolute;
