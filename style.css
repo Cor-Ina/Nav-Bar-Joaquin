@@ -1,0 +1,22 @@
+.list {
+    width: 70%;
+    height: 100px;
+    display: flex;
+    background-color: black;
+    margin: 10rem;
+    position: relative; /* this must be relative, not absolute, for the ::before to work */
+    top: 12%;
+    right: 15%;
+}
+.list::before{
+    content: "";
+    position: absolute;
+    top: -2rem; /* this is just an example. you will have to try different rem values that work for your nav-bar */
+    right: -2rem;
+    border: 2rem solid transparent;
+    border-left: 2rem solid red ;
+    transform: rotate(45deg);
+}
+  
+  
+  
